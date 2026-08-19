@@ -9,6 +9,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --spacing: 0.25rem;
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
     --default-font-family: var(--font-sans);
@@ -164,6 +165,36 @@
   }
 }
 @layer utilities {
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
+  }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
+  }
+  .flex {
+    display: flex;
+  }
+  .inline {
+    display: inline;
+  }
   .table {
     display: table;
   }
@@ -177,9 +208,29 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-b-2 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
+  .border-b-3 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 3px;
+  }
+  .border-\[\#1BC8D3\] {
+    border-color: #1BC8D3;
+  }
+  .p-20 {
+    padding: calc(var(--spacing) * 20);
+  }
+  .pb-2 {
+    padding-bottom: calc(var(--spacing) * 2);
+  }
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
+  .text-\[\#1BC8D3\] {
+    color: #1BC8D3;
   }
   .text-red-500 {
     color: var(--color-red-500);
@@ -190,6 +241,21 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  @media (hover: hover) {
+    .hover\:border-b-2:hover {
+      border-bottom-style: var(--tw-border-style);
+      border-bottom-width: 2px;
+    }
+    .hover\:border-\[\#1BC8D3\]:hover {
+      border-color: #1BC8D3;
+    }
+    .hover\:pb-2:hover {
+      padding-bottom: calc(var(--spacing) * 2);
+    }
+    .hover\:text-\[\#1BC8D3\]:hover {
+      color: #1BC8D3;
+    }
   }
 }
 @property --tw-border-style {
