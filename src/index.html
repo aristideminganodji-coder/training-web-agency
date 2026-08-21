@@ -7,6 +7,173 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    <p class="text-xl text-red-500">salut comment tu vas ??</p>
+    <!-- NavBar -->
+    <nav>
+        <div class="flex mt-7">
+            <p class="text-[#1BC8D3] border-b-2 border-[#1BC8D3] inline pb-2 ml-10">Home</p>
+            <p class="hover:text-[#1BC8D3] hover:border-b-2 hover:border-[#1BC8D3] inline hover:pb-2 ml-10">Skills</p>
+            <p class="hover:text-[#1BC8D3] hover:border-b-2 hover:border-[#1BC8D3] inline hover:pb-2 ml-10">Service</p>
+            <p class="hover:text-[#1BC8D3] hover:border-b-2 hover:border-[#1BC8D3] inline hover:pb-2 ml-10">Work</p>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="hero flex lg:flex-row md:flex-col justify-between items-center mt-28">
+        <div><img src="../images/hero.jpg"></div>
+        <div class="ml-10 mr-10 md:mt-0 sm:mt-[6rem]">
+            <h1 class="text-6xl font-bold mb-10">
+                Web <span class="text-[#1BC8D3]">Agency</span>
+            </h1>
+            <p class="font-thin w-96 mb-10 text-[17px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint quas ipsa corporis labore ipsum eligendi libero illo sit recusandae alias.</p>
+            <div class="btns-container">
+                <button class="text-white bg-[#1BC8D3] pt-2 pb-2 pl-10 pr-10 mr-5 mb-5">Services</button>
+
+                <button class="ml-6 border-b-2 p-2 font-bold mb-5 border-black">Learn More</button>
+            </div>
+            <div class="flex justify-around md:flex-row sm:flex-col">
+                <div class="flex flex-col justify-around items-center p-2 mr-5 mt-5 bg-[#1BC8D3]">
+                    <h1 class="mt-5">
+                        <span class="font-bold">5 Star</span> Experience
+                    </h1>
+                    <p class="text-center w-60 p-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe vitae quos quae alias!
+                    </p>
+                </div>
+
+                <div class="flex flex-col justify-around items-center p-2 ml-5 mt-5 bg-[#1BC8D3]/20">
+                    <h1 class="mt-5">
+                       Make <span class="font-bold">Your</span> Offer
+                    </h1>
+                    <p class="text-center w-60 p-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe vitae quos quae alias!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- First Section -->
+     <section class="flex justify-around items-center mt-30">
+        <div class="flex flex-col justify-center items-start">
+            <h1 class="font-bold text-5xl mb-10 mt-5">
+                OUR <br>
+                <span class="text-[#1BC8D3]">Skills</span>
+            </h1>
+            <p class="w-90 mb-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt in neque maxime odit incidunt quibusdam similique aspernatur blanditiis quidem.
+            </p>
+            <div> <button class="bg-[#1BC8D3] px-10 py-2 text-white mb-5">Services</button></div>
+        </div>
+        <div><img src="../images/section-two.jpg" class="w-[500px] rounded-md"></div>
+     </section>
+
+     <!-- Second Section -->
+      <section class="mt-30">
+        <h1 class="font-bold text-4xl mb-10">Services</h1>
+        <div class="relative left:0 bg-[#292A2B] h-screen w-[245px] flex items-center">
+            <div class="grid grid-flow-col grid-rows-2 gap-10 absolute left-[125px]">
+                <div class="p-10 bg-[#1BC8C3]">
+                    <h1 class="font-bold mb-5">
+                        Web <br>
+                        Development
+                    </h1>
+                    <p class="w-52">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, molestias? Accusantium quidem omnis dicta quibusdam
+                    </p>
+                </div>
+
+                <div class="p-10 bg-[#1BC8C3]">
+                    <h1 class="font-bold mb-5">
+                        Web <br>
+                        Design
+                    </h1>
+                    <p class="w-52">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, molestias? Accusantium quidem omnis dicta quibusdam
+                    </p>
+                </div>
+
+                <div class="p-10 bg-[#292A2B] text-white">
+                    <h1 class="font-bold mb-5">
+                        Analytic
+                    </h1>
+                    <p class="w-52">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, molestias? Accusantium quidem omnis dicta quibusdam
+                    </p>
+                </div>
+
+                <div class="p-10 bg-[#292A2B] text-white">
+                    <h1 class="font-bold mb-5">
+                        Seo <br>
+                        & Smm
+                    </h1>
+                    <p class="w-52">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, molestias? Accusantium quidem omnis dicta quibusdam
+                    </p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- third Section -->
+       <section class="mt-30">
+            <h1 class="font-bold text-5xl text-right mr-15">Recents Projects</h1>
+            <div class="flex justify-evenly items-center mt-30 flex-wrap gap-30">
+                <div>
+                    <img src="../images/alex-knight-j4uuKnN43_M-unsplash.jpg" class="w-64">
+                    <p class="text-white bg-[#1BC8D3]">Web Design</p>
+                </div>
+
+                <div>
+                    <img src="../images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" class="w-64">
+                    <p class="text-white bg-[#1BC8D3]">Web Design</p>
+                </div>
+
+                <div>
+                    <img src="../images/davide-baraldi-Nzmyp6LsgNM-unsplash.jpg" class="w-64">
+                    <p class="text-white bg-[#1BC8D3]">Web Design</p>
+                </div>
+
+                <div>
+                    <img src="../images/igor-miske-JVSgcV8_vb4-unsplash.jpg" class="w-64">
+                    <p class="text-white bg-[#1BC8D3]">Web Design</p>
+                </div>
+
+                <div>
+                    <img src="../images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg" class="w-64">
+                    <p class="text-white bg-[#1BC8D3]">Web Design</p>
+                </div>
+
+                <div>
+                    <img src="../images/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg" class="w-64">
+                    <p class="text-white bg-[#1BC8D3]">Web Design</p>
+                </div>
+            </div>
+       </section>
+
+       <!-- Footer -->
+       <footer class="mt-30 flex justify-around items-center bg-[#292A2B]">
+            <div class="p-10">
+                <h1 class="text-white text-[16px] font-bold mb-5">SITE MENU</h1>
+                <p class="text-white">About Us</p>
+                <p class="text-white">Photography</p>
+                <p class="text-white">Lens Index</p>
+            </div>
+
+            <div class="p-10">
+                <h1 class="text-white text-[16px] font-bold mb-5">REVIEW</h1>
+                <p class="text-white">Review Archive</p>
+                <p class="text-white">Camera Reviews</p>
+                <p class="text-white">Lens Reviews</p>
+                <p class="text-white">Other Gear Reviews</p>
+            </div>
+
+            <div class="p-10">
+                <h1 class="text-white text-[16px] font-bold mb-5">MORE</h1>
+                <p class="text-white">Contact Us</p>
+                <p class="text-white">Subscribe</p>
+                <p class="text-white">Workshops</p>
+                <p class="text-white">Support Us</p>
+            </div>
+       </footer>
 </body>
 </html>
